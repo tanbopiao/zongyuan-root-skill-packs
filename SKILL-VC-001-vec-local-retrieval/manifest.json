@@ -1,0 +1,21 @@
+{
+  "skill_id": "SKILL-VC-001",
+  "name": "本地语义检索管线",
+  "version": "1.0.0",
+  "batch": "2026-W45",
+  "deps": [
+    "sqlite-vec"
+  ],
+  "tests": {
+    "count": 5,
+    "runtime": "桩编码器，无模型依赖"
+  },
+  "provenance": "真实体系 936 块索引工程提炼（2026-11-02 落地）",
+  "files": {
+    "SKILL.md": "83dfd7abbf306330",
+    "VERIFY.md": "4ee2fd1d27cc6762",
+    "build_index.py": "6a4e27bc229fe67e",
+    "test_vec_index.py": "f0b446c7ef2f2fcb",
+    "vec_index.py": "03319fdf91fecc89"
+  }
+}
