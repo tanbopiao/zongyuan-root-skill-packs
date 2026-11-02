@@ -1,0 +1,35 @@
+{
+  "week": "2026-W45",
+  "generated": "2026-11-02T12:30:00+08:00",
+  "did": "DID-BR-000002",
+  "packs": [
+    {
+      "pack_id": "SKILL-HG-001",
+      "name": "规约回灌闭环 Regula Feedback Loop",
+      "root_sha256_16": "726e0efb1a2c12f3",
+      "file_count": 6,
+      "dir": "SKILL-HG-001-huiguan-feedback-loop"
+    },
+    {
+      "pack_id": "SKILL-FM-001",
+      "name": "联邦记忆哈希链同步 Federal Memory Hash Sync",
+      "root_sha256_16": "87d1292f7548eb2f",
+      "file_count": 4,
+      "dir": "SKILL-FM-001-federal-memory-hash-sync"
+    },
+    {
+      "pack_id": "SKILL-SEO-001",
+      "name": "SEO全域推送器 SEO Global Pusher",
+      "root_sha256_16": "fa5f29df5a11cb0f",
+      "file_count": 6,
+      "dir": "SKILL-SEO-001-seo-global-pusher"
+    },
+    {
+      "pack_id": "EXP-DDM-001",
+      "name": "双推演门决策法 Dual Simulation Gate",
+      "root_sha256_16": "cc83133424bc1893",
+      "file_count": 4,
+      "dir": "EXP-DDM-001-dual-simulation-gate"
+    }
+  ]
+}

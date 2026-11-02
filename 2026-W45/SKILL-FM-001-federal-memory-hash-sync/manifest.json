@@ -1,0 +1,22 @@
+{
+  "pack_id": "SKILL-FM-001",
+  "type": "skill",
+  "name": "联邦记忆哈希链同步 Federal Memory Hash Sync",
+  "description": "快照打包→哈希链→网关写入→只读复核→追加留痕；幂等跳过、令牌门禁写面、读面开放",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "did": "DID-BR-000002",
+  "anchor": "Ω₀⊂⊙∞⊂Ω",
+  "created": "2026-11-02",
+  "source_system": "ZONGYUAN-ROOT 联邦同步网关 V0.2 与昆仑记忆网关",
+  "deps": "none (python3 stdlib only)",
+  "install": "拷贝整个目录即可；按 SKILL.md 快速开始接入",
+  "origin": "ZONGYUAN-ROOT 能力外显SOP 2026-W45",
+  "files_sha256": {
+    "ROUTES.md": "a603d0f49d8126ebb25c7a3fdad42c44cfef44a110c22d8b35210ad005f90c75",
+    "SKILL.md": "ebf239ce5c11e845322326c24f738ed91a31643ca3d133731ace25b8ce59dbfb",
+    "templates/sync_chain.py": "cab78489e65532bade074f2208617aaac8d65c9b5ba12e545a74727bb32c8029",
+    "templates/sync_state.schema.md": "1b41e37576351b733390fc736ac623353f71f473c2e042e5c0b8f6086542ddec"
+  },
+  "root_sha256_16": "87d1292f7548eb2f"
+}

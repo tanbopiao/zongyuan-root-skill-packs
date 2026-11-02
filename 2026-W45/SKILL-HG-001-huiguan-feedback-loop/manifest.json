@@ -1,0 +1,24 @@
+{
+  "pack_id": "SKILL-HG-001",
+  "type": "skill",
+  "name": "规约回灌闭环 Regula Feedback Loop",
+  "description": "分层规约装配、P0逐字校验、逃逸负例回灌、限次重生成复判、正例回灌与指标留痕的质量自愈闭环",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "did": "DID-BR-000002",
+  "anchor": "Ω₀⊂⊙∞⊂Ω",
+  "created": "2026-11-02",
+  "source_system": "ZONGYUAN-ROOT 规约回灌中枢 V0.2",
+  "deps": "none (python3 stdlib only)",
+  "install": "拷贝整个目录即可；按 SKILL.md 快速开始接入",
+  "origin": "ZONGYUAN-ROOT 能力外显SOP 2026-W45",
+  "files_sha256": {
+    "ROUTES.md": "efccac4a6f986facad8b09f19a55986091e5f6011d81e7d34b783d54bf9bb4ae",
+    "SKILL.md": "5d71cec87de413a8a751025db11232df23e77dee5bd18c85c6c6675da50a33f3",
+    "references/method.md": "cb5f4dc0982096735436d8b567fa3f9e3e30c63d0777bf583c6e0e9a37246b0c",
+    "templates/rules.schema.json": "08b125c29f0e11248159b9e238857698c0cbe1522497c1f04456fb02bebe0c95",
+    "templates/samples.format.md": "bb79dff998e594cec2d923d481231d319edd73b71fa70e9eb15f198067ee0f05",
+    "templates/verify_skeleton.py": "fe3d0a8af3ac6644197a1cc180e583adea4cd72ad92cbdb5a39aba40d73fe7ee"
+  },
+  "root_sha256_16": "726e0efb1a2c12f3"
+}

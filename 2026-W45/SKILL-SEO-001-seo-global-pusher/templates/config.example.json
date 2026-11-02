@@ -1,0 +1,7 @@
+{
+  "site": "https://example.com",
+  "host": "example.com",
+  "sitemap_url": "https://example.com/sitemap.xml",
+  "indexnow_key": "请生成32位hex密钥，并在站点根放置同名 .txt 文件",
+  "baidu_token": "可选：百度搜索资源平台链接提交 token，留空则跳过百度通道"
+}

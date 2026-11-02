@@ -1,0 +1,26 @@
+[
+  {
+    "rule_id": "MR-SEC-001",
+    "layer": 3,
+    "scope": ["*"],
+    "text": "任何输出不得包含明文秘钥、令牌或口令（P0 正则在 verify_skeleton.py 中实现）",
+    "version": 1,
+    "status": "ACTIVE"
+  },
+  {
+    "rule_id": "MR-SCENE-001",
+    "layer": 2,
+    "scope": ["deploy", "push"],
+    "text": "对远端执行任何写动作前，必须先完成备份与回滚路径确认",
+    "version": 1,
+    "status": "ACTIVE"
+  },
+  {
+    "rule_id": "MR-CONSTITUTION-001",
+    "layer": 1,
+    "scope": ["*"],
+    "text": "全局宪法条款（恒在背景生效，不参与路由装配，校验时必须覆盖）",
+    "version": 1,
+    "status": "ACTIVE"
+  }
+]
