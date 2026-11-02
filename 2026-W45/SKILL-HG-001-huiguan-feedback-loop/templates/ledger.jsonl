@@ -1,0 +1,5 @@
+{"ts": "2026-11-02T13:22:14+0800", "event": "assemble", "pack_id": "pack-20261102132214", "routed": [], "examples": 0}
+{"ts": "2026-11-02T13:22:14+0800", "event": "escape", "session_id": "demo-001", "rule_id": "MR-SEC-001", "pack_id": "pack-20261102132214", "hit": "toke***"}
+{"ts": "2026-11-02T13:22:14+0800", "event": "escape", "session_id": "demo-001", "rule_id": "MR-SEC-001", "pack_id": "pack-20261102132214", "hit": "toke***"}
+{"ts": "2026-11-02T13:22:14+0800", "event": "escape", "session_id": "demo-001", "rule_id": "MR-SEC-001", "pack_id": "pack-20261102132214", "hit": "toke***"}
+{"ts": "2026-11-02T13:22:14+0800", "event": "escalate", "session_id": "demo-001", "attempts": 3, "final": "FAIL", "rule_id": "MR-SEC-001"}

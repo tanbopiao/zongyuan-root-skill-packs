@@ -96,6 +96,8 @@ def sync_once() -> str:
     except Exception as e:
         append_log({"ts": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
                     "event": "ERROR", "error": str(e)[:120],
+                    "payload_sha256": payload["payload_sha256"],
+                    "prev_hash": prev,
                     "chain_hash": payload["chain_hash"]})
         print("SYNC_WRITE_ERROR")
         return "ERROR"

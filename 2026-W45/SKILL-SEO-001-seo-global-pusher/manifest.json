@@ -11,14 +11,20 @@
   "source_system": "ZONGYUAN-ROOT SEO全域推送器实战（346条全绿）",
   "deps": "none (python3 stdlib only)",
   "install": "拷贝整个目录即可；按 SKILL.md 快速开始接入",
-  "origin": "ZONGYUAN-ROOT 能力外显SOP 2026-W45",
+  "origin": "ZONGYUAN-ROOT 技能包系列 2026-W45",
   "files_sha256": {
     "ROUTES.md": "6e037c77bbc97b20ebdf469e567512811b6cbb89f90c39c272aadeb74185b4ab",
     "SKILL.md": "828773dd8a20d5a2b2a4e51001a5bd203514171a6a43ab6a472047fbcdedc388",
+    "VERIFY.md": "e5edb7bff5ae617760e5cd40db1e032630be37903a7705aa44b0d102d72b8462",
     "references/method.md": "581141837408ba868a4c628680b163e38a3a38c0a567645f9d6442886eabf4b6",
     "templates/config.example.json": "542d9e136c5bbfc6572d9e02920d3813695f93f87a982bcb19cb0040d34348bb",
+    "templates/config.json": "c1963e36c4a32ea1ee5d4f95eddeb6f9c1911952f4b4970f2b22cdaf077d833d",
     "templates/seo_pusher.py": "8b9553f55e1e765d804d479b2085d17b8d32dcac2a061bb57af397872f5db8a3",
     "templates/state.example.json": "2ea2e70e53b34bacc6d1a08cbb64e8c4f2603fa5b69b65972def24227b6f8235"
   },
-  "root_sha256_16": "fa5f29df5a11cb0f"
+  "root_sha256_16": "fa5f29df5a11cb0f",
+  "verify": {
+    "guide": "VERIFY.md",
+    "independently_tested": "2026-11-02"
+  }
 }

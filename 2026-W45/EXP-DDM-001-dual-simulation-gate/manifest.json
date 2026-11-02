@@ -11,12 +11,17 @@
   "source_system": "ZONGYUAN-ROOT 稳态元法则 META-STEADY-001/002/003 与六判据定谳",
   "deps": "none (python3 stdlib only)",
   "install": "拷贝整个目录即可；按 SKILL.md 快速开始接入",
-  "origin": "ZONGYUAN-ROOT 能力外显SOP 2026-W45",
+  "origin": "ZONGYUAN-ROOT 技能包系列 2026-W45",
   "files_sha256": {
     "ROUTES.md": "991615e20c0460392a4d8c110403bb779eaaca7d60e0c37ceccafc37a070e255",
     "SKILL.md": "99e811b3b9a38d114200ea5e44210fb1c850cf3372d6db43c21caeb405fd331f",
+    "VERIFY.md": "ab54c8cf1844ccf417f0b8ab786fc21593489d5dfd232aa45b70a892d8076199",
     "templates/dual-gate-ledger.md": "cc787b27a452eafb29cbc8487495ac3969bf8922367b1cf6ce02bbcb22aba253",
     "templates/judge-checklist.md": "f5eb1288822d13af9dd819d0314a0efcf85b35d06b0de3676c75f7cc7cca78c0"
   },
-  "root_sha256_16": "cc83133424bc1893"
+  "root_sha256_16": "cc83133424bc1893",
+  "verify": {
+    "guide": "VERIFY.md",
+    "independently_tested": "2026-11-02"
+  }
 }
